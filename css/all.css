@@ -145,6 +145,8 @@ header {
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   padding: 0 24px 0 42px;
+  width: 1024px;
+  position: fixed;
 }
 
 header h1 a {
@@ -202,4 +204,192 @@ footer {
   display: block;
   padding: 50px 0;
   margin-right: 22px;
+}
+
+/* index.html */
+/* home-banner */
+.home-banner {
+  background: url('../images/banner_1.png');
+  background-size: cover;
+  background-position: left center;
+  height: 563px;
+}
+
+.home-banner h2 {
+  padding-top: 185px;
+  margin: 0 0 58px 42px;
+  color: #00cc99;
+  font-size: 44px;
+  line-height: 1.77;
+  font-weight: bold;
+}
+
+.home-banner h2 span {
+  color: #ffffff;
+}
+
+.home-banner .btn {
+  color: #fff;
+  background: #00cc99;
+  border-radius: 5px;
+  padding: 18px 36px 17px 41px;
+  font-size: 20px;
+  margin-left: 42px;
+  border: 0;
+  cursor: pointer;
+}
+/* home-course */
+.home-course {
+  padding: 60px 44px 55px;
+}
+
+.home-course-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.home-course h2 {
+  display: inline-block;
+  color: #00cc99;
+  font-size: 32px;
+  margin-right: 16px;
+  font-weight: bold;
+}
+
+.home-course p {
+  display: inline-block;
+  color: #d0d0d0;
+  font-size: 19px;
+}
+
+.home-course-header .btn {
+  color: #00cc99;
+  border: 3px solid #00cc99;
+  border-radius: 5px;
+  padding: 6px 11px 7px 15px;
+  background: #fff;
+  font-size: 16px;
+}
+
+.home-course-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-course-item {
+  width: 300px;
+  padding: 26px 21px 30px 17px;
+  box-shadow: 0 2px 5px gray;
+}
+
+.home-course-item img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+
+.home-course-item h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.home-course-item p {
+  color: #afafaf;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* home-compareTable */
+.home-compareTable {
+  margin-bottom: 60px;
+  padding: 0 42px;
+}
+
+.home-compareTable-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.home-compareTable h2 {
+  color: #00cc99;
+  font-size: 34px;
+  margin-bottom: 32px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.home-compareTable p {
+  font-size: 19px;
+  font-weight: bold;
+  color: #b6b6b6;
+}
+
+.compareTable {
+  width: 943px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.compareTable tr:first-child {
+  background: #ebebeb;
+}
+
+.compareTable .mark {
+  color: #33d6ad;
+}
+
+.compareTable th,
+.compareTable td {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: bold;
+}
+/* home-nextOne */
+.home-nextone {
+  background: #ebebeb;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 44px;
+}
+
+.home-nextone h2 {
+  font-size: 28px;
+  line-height: 60px;
+  font-weight: bold;
+  margin: 156px 0 152px;
+}
+
+.home-nextone form {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.home-nextone form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 17px 21px;
+  font-size: 19px;
+  color: #9b9b9b;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+}
+
+.home-nextone form .btn {
+  background: #00cc99;
+  padding: 17px 45px 16px 41px;
+  color: #fff;
+  font-size: 21px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
 }

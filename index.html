@@ -3,30 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>首頁</title>
     <link rel="stylesheet" href="css/all.css" />
   </head>
   <body>
     <div class="wrap">
-      <div class="header">
-        <a href="index.html">首頁</a>
-        <a href="course.html">課程</a>
-        <a href="faq.html">問答</a>
-      </div>
-      <div class="content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quas sed
-        porro quidem atque? Nobis similique, sequi repellendus mollitia quis aut
-        culpa quam ab alias provident vero quisquam natus molestiae tempora
-        commodi delectus doloremque facilis exercitationem esse consectetur?
-        Cumque quia, obcaecati quam magni non veniam et doloremque odit quae
-        eaque hic voluptas vel laboriosam, quas dolores? Reprehenderit alias,
-        eum illum repellendus esse quam recusandae excepturi maiores quia,
-        asperiores laudantium perspiciatis impedit minus magnam, aut minima
-        fugit sed. Sit numquam tenetur, repudiandae aperiam perferendis porro
-        doloribus unde illo illum laboriosam quam neque, magnam amet dolor, modi
-        inventore suscipit eaque eum dicta.
-      </div>
-      <div class="footer"></div>
+      <header>
+        <h1><a href="index.html">hex school</a></h1>
+        <ul class="header-menu">
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="course.html">課程</a></li>
+          <li><a href="faq.html">問答</a></li>
+        </ul>
+      </header>
+      <section class="home-banner">
+        <h2>
+          歡迎來到<span>六角學院</span><br />
+          帶你一起攻略前端設計
+        </h2>
+        <button class="btn">馬上去註冊 -></button>
+      </section>
+      <section class="home-course">
+        <div class="home-course-header">
+          <div>
+            <h2>精選課程</h2>
+            <p>幫助你拿到前端工程師的門票</p>
+          </div>
+          <button class="btn">更多課程</button>
+        </div>
+        <div class="home-course-content">
+          <div class="home-course-item">
+            <img src="images/html.png" alt="html" />
+            <h3>Html 5 基礎教學</h3>
+            <p>
+              主流前端網站設計的基礎，透過實際的範例，了解正確的網站開發流程。
+            </p>
+          </div>
+          <div class="home-course-item">
+            <img src="images/rwd.png" alt="rwd" />
+            <h3>響應式網站設計</h3>
+            <p>
+              六角學院提供業界響應式開發方法，讓學生了解完善的行動版開發觀念。
+            </p>
+          </div>
+          <div class="home-course-item">
+            <img src="images/jquery.png" alt="jquery" />
+            <h3>JQuery實戰教學</h3>
+            <p>分為四大主題:變數的使用、操作DOM、基本數學運算和套件運用。</p>
+          </div>
+        </div>
+      </section>
+      <section class="home-compareTable">
+        <div class="home-compareTable-header">
+          <h2>課程比較</h2>
+          <p>線上課程與實體課程的差異</p>
+        </div>
+        <table class="compareTable">
+          <tr>
+            <th>項目</th>
+            <th>六角學院 線上課程</th>
+            <th>一般線上課程</th>
+            <th>一般實體課程</th>
+          </tr>
+          <tr>
+            <th>費用</th>
+            <td class="mark">較低</td>
+            <td class="mark">較低</td>
+            <td>較高</td>
+          </tr>
+          <tr>
+            <th>學習效果</th>
+            <td>一般</td>
+            <td>較低</td>
+            <td class="mark">很好</td>
+          </tr>
+          <tr>
+            <th>Code review</th>
+            <td class="mark">有</td>
+            <td>無</td>
+            <td>不一定</td>
+          </tr>
+          <tr>
+            <th>課程更新進度</th>
+            <td class="mark">普通</td>
+            <td class="mark">普通</td>
+            <td>較慢</td>
+          </tr>
+          <tr>
+            <th>多次複習</th>
+            <td class="mark">可</td>
+            <td class="mark">可</td>
+            <td>不可</td>
+          </tr>
+          <tr>
+            <th>字幕</th>
+            <td class="mark">有</td>
+            <td>不一定</td>
+            <td>板書</td>
+          </tr>
+        </table>
+      </section>
+      <section class="home-nextone">
+        <h2>
+          你就是六角的下一個學生!<br />
+          快留下資料讓我們認識你吧
+        </h2>
+        <form action="">
+          <input type="text" name="fullName" placeholder="你的名字是?" />
+          <input type="email" name="email" placeholder="example@mail.com.tw" />
+          <button type="submit" class="btn">送 出</button>
+        </form>
+      </section>
+      <footer>
+        <div class="footer-logo-box">
+          <img src="images/footer_logo.png" alt="footer logo" />
+          <p>&copy; 2018 hexschool</p>
+        </div>
+        <ul class="footer-menu">
+          <li>
+            <a href="#"><img src="images/fb.png" alt="fb" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/ig.png" alt="ig" /></a>
+          </li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>
