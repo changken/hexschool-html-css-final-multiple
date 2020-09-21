@@ -577,3 +577,177 @@ footer {
   font-size: 19px;
   margin-bottom: 6px;
 }
+/* faq */
+/* faq-banner */
+.faq-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 76px;
+  height: 561px;
+  background: url('../images/banner_3.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.faq-banner h2 {
+  color: #fff;
+  font-size: 46px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+.faq-banner p {
+  color: #00cc99;
+  font-size: 25px;
+  margin-bottom: 52px;
+}
+
+.faq-banner .searchbox {
+  position: relative;
+  width: 620px;
+}
+.searchbox input {
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  height: 52px;
+  font-size: 20px;
+}
+
+.searchbox img {
+  position: absolute;
+  top: 12px;
+  right: 13px;
+  cursor: pointer;
+}
+
+/* faq-content */
+.faq-content {
+  width: 780px;
+  margin: 60px auto;
+}
+
+/* faq-common、faq-how-to-pay、faq-refund */
+.faq-block {
+  margin-bottom: 62px;
+}
+
+.faq-block-header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 35px;
+}
+
+.faq-block-header h2 {
+  color: #00cc99;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 23px;
+}
+
+.faq-block .faq-block-header p {
+  color: #9b9b9b;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.faq-block-item {
+  margin-bottom: 36px;
+}
+
+.faq-block-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.faq-block-item p {
+  color: #9b9b9b;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.faq-block-item p.title {
+  color: #000;
+}
+
+.faq-block-item p span {
+  color: #00cc99;
+}
+
+.faq-block-item ol,
+.faq-block-item ul {
+  color: #9b9b9b;
+  font-weight: bold;
+}
+
+.faq-block-item ol {
+  list-style: decimal;
+  padding-left: 38px;
+}
+
+.faq-block-item ol li {
+  padding-left: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.faq-block-item ul {
+  list-style: disc;
+  padding-left: 36px;
+}
+
+.faq-block-item ul li {
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 24px;
+}
+/* faq-nextone */
+.faq-nextone {
+  background: #ebebeb;
+  padding: 120px 42px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-nextone h2 {
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.faq-nextone form {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.faq-nextone form input,
+.faq-nextone form textarea {
+  font-size: 19px;
+  padding: 17px 22px;
+  width: 100%;
+  font-weight: bold;
+  color: #9b9b9b;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.faq-nextone form textarea {
+  height: 202px;
+}
+
+.faq-nextone form .btn {
+  background: #00cc99;
+  color: #fff;
+  padding: 17px 45px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
