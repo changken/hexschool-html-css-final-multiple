@@ -393,3 +393,187 @@ footer {
   border-radius: 10px;
   cursor: pointer;
 }
+/* course */
+/* course-banner */
+.course-banner {
+  background: url('../images/banner_2.png');
+  background-size: cover;
+  background-position: left center;
+  height: 560px;
+  padding: 76px 59px 0 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.course-banner-titlebox {
+  margin-top: 111px;
+}
+.course-banner-titlebox h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.course-banner-titlebox p {
+  color: #00cc99;
+  font-size: 24px;
+  margin-bottom: 59px;
+}
+
+.course-banner-titlebox .btn {
+  background: #00cc99;
+  color: #fff;
+  padding: 18px 35px 16px 39px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.course-banner-imgbox {
+  margin-top: 42px;
+}
+
+.course-banner-imgbox img {
+  margin-right: 33px;
+}
+.course-banner-imgbox img:last-child {
+  margin-right: 0;
+}
+/* course-content */
+.course-content {
+  margin: 0 auto;
+  width: 621px;
+  padding: 60px 0;
+}
+
+/* course-teacher */
+.course-teacher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.course-teacher h2 {
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.course-teacher h2 span {
+  color: #00cc99;
+}
+
+.course-teacher ul {
+  list-style: disc;
+  color: #afafaf;
+}
+
+.course-teacher ul li {
+  padding-left: 33px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* course-special */
+.course-special {
+  margin-bottom: 60px;
+}
+
+.course-special-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.course-special-header h2 {
+  color: #00cc99;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 18px;
+  margin-bottom: 32px;
+}
+
+.course-special-header p {
+  color: #9b9b9b;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.course-special ol {
+  padding-left: 16px;
+  list-style: decimal;
+  font-weight: bold;
+}
+
+.course-special ol li {
+  padding-left: 25px;
+  line-height: 22px;
+  font-size: 15px;
+  text-align: justify;
+}
+/* course-outline */
+.course-outline-header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 32px;
+}
+
+.course-outline-header h2 {
+  color: #00cc99;
+  font-size: 34px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.course-outline-header p {
+  color: #9b9b9b;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.outlineTable {
+  width: 100%;
+  font-size: 16px;
+}
+
+.outlineTable tr:nth-child(2n-1) {
+  background: #ebebeb;
+}
+
+.outlineTable tr:nth-child(2n) {
+  background: #fff;
+  color: #9b9b9b;
+}
+
+.outlineTable th {
+  text-align: left;
+  font-weight: bold;
+  padding: 20px 0 17px 39px;
+}
+/* course-nextone */
+.course-nextone {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: #ebebeb;
+  padding: 157px 202px 154px 203px;
+}
+
+.course-nextone h2 {
+  font-size: 30px;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.course-nextone .btn {
+  background: #00cc99;
+  color: #fff;
+  padding: 18px 35px 17px 41px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+  margin-bottom: 6px;
+}
