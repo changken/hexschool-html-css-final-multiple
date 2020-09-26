@@ -139,17 +139,19 @@ table {
 
 /* layout */
 /* header */
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   padding: 0 24px 0 42px;
   width: 1024px;
+  /* 固定在上面 */
   position: fixed;
+  z-index: 30;
 }
 
-header h1 a {
+.header h1 a {
   display: block;
   width: 170px;
   height: 36px;
@@ -181,7 +183,7 @@ header h1 a {
 }
 
 /* footer */
-footer {
+.footer {
   background: #323228;
   display: flex;
   align-items: center;
@@ -209,15 +211,21 @@ footer {
 /* index.html */
 /* home-banner */
 .home-banner {
+  position: relative;
   background: url('../images/banner_1.png');
   background-size: cover;
   background-position: left center;
   height: 563px;
 }
 
+.home-banner-titlebox {
+  position: absolute;
+  top: 185px;
+  left: 42px;
+}
+
 .home-banner h2 {
-  padding-top: 185px;
-  margin: 0 0 58px 42px;
+  margin-bottom: 58px;
   color: #00cc99;
   font-size: 44px;
   line-height: 1.77;
@@ -234,10 +242,15 @@ footer {
   border-radius: 5px;
   padding: 18px 36px 17px 41px;
   font-size: 20px;
-  margin-left: 42px;
   border: 0;
   cursor: pointer;
+  transition: all 0.5s;
 }
+
+.home-banner .btn:hover {
+  transform: scale(1.05, 1.05);
+}
+
 /* home-course */
 .home-course {
   padding: 60px 44px 55px;
@@ -270,6 +283,13 @@ footer {
   padding: 6px 11px 7px 15px;
   background: #fff;
   font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.home-course-header .btn:hover {
+  background: #00cc99;
+  color: #fff;
 }
 
 .home-course-content {
@@ -356,14 +376,13 @@ footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  padding: 0 44px;
+  padding: 140px 44px 60px;
 }
 
 .home-nextone h2 {
   font-size: 28px;
   line-height: 60px;
   font-weight: bold;
-  margin: 156px 0 152px;
 }
 
 .home-nextone form {
@@ -392,20 +411,26 @@ footer {
   border: 0;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.5s;
 }
+
+.home-nextone form .btn:hover {
+  transform: scale(1.05, 1.05);
+}
+
 /* course */
 /* course-banner */
 .course-banner {
+  position: relative;
   background: url('../images/banner_2.png');
   background-size: cover;
   background-position: left center;
   height: 560px;
-  padding: 76px 59px 0 37px;
-  display: flex;
-  justify-content: space-between;
 }
 .course-banner-titlebox {
-  margin-top: 111px;
+  position: absolute;
+  top: 187px;
+  left: 37px;
 }
 .course-banner-titlebox h2 {
   color: #fff;
@@ -428,10 +453,17 @@ footer {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  transition: all 0.5s;
+}
+
+.course-banner-titlebox .btn:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .course-banner-imgbox {
-  margin-top: 42px;
+  position: absolute;
+  top: 118px;
+  right: 59px;
 }
 
 .course-banner-imgbox img {
@@ -440,6 +472,7 @@ footer {
 .course-banner-imgbox img:last-child {
   margin-right: 0;
 }
+
 /* course-content */
 .course-content {
   margin: 0 auto;
@@ -576,6 +609,11 @@ footer {
   cursor: pointer;
   font-size: 19px;
   margin-bottom: 6px;
+  transition: all 0.5s;
+}
+
+.course-nextone .btn:hover {
+  transform: scale(1.05, 1.05);
 }
 /* faq */
 /* faq-banner */
@@ -608,6 +646,7 @@ footer {
   position: relative;
   width: 620px;
 }
+
 .searchbox input {
   width: 100%;
   border: 0;
@@ -750,4 +789,9 @@ footer {
   border: 0;
   border-radius: 5px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.faq-nextone form .btn:hover {
+  transform: scale(1.05, 1.05);
 }
